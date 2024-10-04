@@ -1,0 +1,231 @@
+:root {
+  --sky-blue: #57cfed;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+body {
+  color: #fff;
+  background-color: #57cfed;
+  font-family: Pangolin, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.nav-container {
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: static;
+}
+
+.pocketbuddha-heading {
+  position: static;
+}
+
+.nav-link {
+  color: #fff;
+  text-align: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: Pangolin, sans-serif;
+  text-decoration: none;
+}
+
+.nav-link:focus {
+  font-size: 40px;
+}
+
+.nav-link.w--current {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.navbar {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  background-color: #ddd0;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: flex;
+}
+
+.main {
+  flex-flow: column;
+  min-height: 65vh;
+  display: block;
+}
+
+.app-store-links-container {
+  grid-column-gap: 13px;
+  grid-row-gap: 13px;
+  justify-content: center;
+  max-width: none;
+  display: flex;
+  position: static;
+}
+
+.appstoreicon {
+  border: 1px #000;
+  min-width: 40px;
+  max-width: none;
+  min-height: 5vh;
+  max-height: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-links-container {
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 30px;
+  display: flex;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.link-block {
+  flex-flow: column;
+  justify-content: flex-end;
+  align-self: auto;
+  align-items: center;
+  min-width: auto;
+  min-height: auto;
+  max-height: 200px;
+  display: flex;
+}
+
+.social-svg {
+  vertical-align: bottom;
+  min-width: 40px;
+  margin-bottom: 1svh;
+  margin-left: 1svw;
+  margin-right: 1.5svw;
+  display: block;
+  position: static;
+}
+
+.buddha-in-phone-hidden {
+  max-width: none;
+  max-height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown-container {
+  flex-flow: column;
+  display: flex;
+}
+
+.fading-text-container {
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 250px;
+  height: 9%;
+  display: block;
+  position: absolute;
+  inset: 37% 0% auto;
+}
+
+.fading-text-block {
+  opacity: 1;
+  font-size: 3svh;
+  position: absolute;
+  inset: 0% 0% auto;
+}
+
+.qa-accordian-div {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.q-accordian-div {
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 1.5rem;
+  display: flex;
+}
+
+.a-accordian-div {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: none;
+}
+
+.body {
+  background-image: url('../images/Buddha-in-phone-on-cloud.webp');
+  background-position: 50% 25svh;
+  background-repeat: no-repeat;
+  background-size: auto 80svh;
+}
+
+.body-mail-page {
+  background-color: #4b8897;
+  background-image: url('../images/Sleeping-Buddha-No-icons.webp');
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  background-size: auto 70svh;
+}
+
+.signup-form {
+  width: 200px;
+}
+
+.email-form {
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 200px;
+  height: 9%;
+  display: block;
+  position: absolute;
+  inset: 69% 0% auto;
+}
+
+.text-field {
+  color: #000;
+}
+
+@media screen and (max-width: 479px) {
+  .body {
+    background-size: auto 80%;
+  }
+}
+
+
